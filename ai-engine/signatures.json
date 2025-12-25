@@ -1,0 +1,79 @@
+{
+  "FOOD": {
+    "traits": ["rice", "grains", "steam", "plated", "sauce", "herbs", "dish"],
+    "vetos": ["mountain", "sky", "horizon", "forest", "landscape", "dirt"],
+    "min_score": 0.25
+  },
+  "HOSPITALITY": {
+    "traits": ["uniform", "trolley", "serving tray", "white linens", "cloche", "concierge", "apron"],
+    "allowed": ["corridor", "hallway", "lobby", "bedroom", "elevator", "indoor"],
+    "vetos": ["market", "slum", "construction", "street vendor", "nature"],
+    "min_score": 0.15
+  },
+  "EDUCATION": {
+    "traits": ["student", "uniform", "backpack", "books", "notebook", "pen", "graduation gown", "classroom", "library", "learning"],
+    "allowed": ["indoor", "room", "office", "desk", "outdoor"],
+    "vetos": ["nightclub", "beach", "party", "construction"],
+    "min_score": 0.08
+  },
+  "NATURE": {
+    "traits": ["horizon", "mountain peak", "forest", "waterfall", "lake", "river", "trees", "reflection"],
+    "vetos": ["office", "interior", "laptop", "man-made structure", "furniture", "indoor"],
+    "min_score": 0.15
+  },
+  "WORK_OFFICE": {
+    "traits": ["laptop", "office desk", "meeting room", "whiteboard", "formal suit"],
+    "vetos": ["beach", "bed", "playground", "swimming pool"],
+    "min_score": 0.20
+  },
+  "PNG_OBJECT": {
+    "traits": ["isolated", "white background", "alpha channel", "studio lighting"],
+    "vetos": ["busy background", "watermark", "text overlay"],
+    "min_score": 0.40
+  },
+  "TECH": {
+    "traits": ["circuitry", "led", "smartphone", "data center", "modern hardware"],
+    "vetos": ["retro", "vintage", "analog", "rural setting"],
+    "min_score": 0.25
+  },
+  "AUTOMOTIVE": {
+    "traits": ["headlight", "alloy rim", "dashboard", "car grill", "sleek bodywork"],
+    "vetos": ["bicycle", "pedestrian", "tractor", "horse"],
+    "min_score": 0.25
+  },
+  "BEAUTY": {
+    "traits": ["skin texture", "eyelashes", "lipstick macro", "pores", "soft bokeh"],
+    "vetos": ["blurry", "messy", "distracting background"],
+    "min_score": 0.30
+  },
+  "ARCHITECTURE": {
+    "traits": ["facade", "structural beams", "blueprint", "concrete", "glass pane"],
+    "vetos": ["nature only", "crowd", "clutter"],
+    "min_score": 0.20
+  },
+  "DATA_UX": {
+    "traits": ["dashboard", "clean chart", "UI elements", "mobile app mockup", "vector graph"],
+    "vetos": ["handwritten", "messy desk", "low res screenshot", "lorem ipsum text"],
+    "min_score": 0.35
+  },
+  "FESTIVE_CULTURAL": {
+    "traits": ["diwali lights", "marigold", "henna", "traditional decor", "vibrant colors"],
+    "vetos": ["corporate office", "modern tech", "western winter themes"],
+    "min_score": 0.20
+  },
+  "INTERIOR_DESIGN": {
+    "traits": ["minimalist furniture", "natural light", "architectural shadow", "clean floor"],
+    "vetos": ["exterior landscape", "crowded city", "cluttered room"],
+    "min_score": 0.25
+  },
+  "WILDLIFE": {
+    "traits": ["animal focus", "natural habitat", "bokeh background", "fur texture"],
+    "vetos": ["cage", "zoo bars", "pet leash", "indoor domestic house"],
+    "min_score": 0.25
+  },
+  "MEDICAL": {
+    "traits": ["scrubs", "stethoscope", "laboratory", "surgical mask", "microscope"],
+    "vetos": ["blood", "gory", "home kitchen", "bedroom", "park"],
+    "min_score": 0.30
+  }
+}
